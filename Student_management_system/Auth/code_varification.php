@@ -9,11 +9,11 @@
 <form action="/action_page.php">
 <div class="auth_form">
 <div class="container">
-    <h1>Forget Password</h1>
+    <h1>Code Varification</h1>
     <hr>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <label for="email"><b>Code</b></label>
+    <input type="text" placeholder="Enter Code" name="code" id="code" required>
     <button type="submit" class="registerbtn">Submit</button>
   </div>
   

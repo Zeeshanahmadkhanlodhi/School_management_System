@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/Style/main.css">
-    <title>SMS | Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/Style/main.css">
 </head>
 <body>
-    <div class="auth">
-        <form class="auth_form">
-            <h1>Admin   |  login</h1>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Email">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-            <input type="submit" value="Login">
-            <div class="auth_forget_password">
-                <a href="#">Forget Password?</a>
-            </div>
-            
-        </form>
-    </div>
+
+<form action="/action_page.php">
+<div class="auth_form">
+<div class="container">
+    <h1>Login</h1>
+    <p>Kindly login here.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p><a href="forget_password.php">Forget Password?</a>.</p>
+
+    <button type="submit" class="registerbtn">Login</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</div>
+ 
+</form>
+
 </body>
 </html>
